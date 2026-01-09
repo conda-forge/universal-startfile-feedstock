@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: universal-startfile
-  version: 0.3
+  version: "0.4"
   python_min: 3.9
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/universal_startfile-${{ version }}.tar.gz
-  sha256: a0f8a832400bdd0257cbe073df34df1f129863a22c674808cf8431f8e79191f7
+  sha256: 927546329a05e497306fd71af59e93371a8ec535c44cbbd30ce42cf10f41f422
 
 build:
   number: 0
